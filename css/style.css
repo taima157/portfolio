@@ -150,10 +150,6 @@ nav ul a:hover {
     max-height: 670px;
 }
 
-.proj-demo div:nth-child(1) {
-    padding-right: 20px;
-}
-
 .proj-img {
     display: flex;
     flex-direction: column;
