@@ -78,7 +78,6 @@ nav ul a:hover {
     width: 45%;
 }
 
-
 .imagem-bem-vindo img {
     max-width: 380px;
     width: 100%;
@@ -87,7 +86,7 @@ nav ul a:hover {
 
 .bem-vindo h2 {
     color: #137feb;
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
 .bem-vindo-bold {
@@ -103,7 +102,7 @@ nav ul a:hover {
 .saiba-mais {
     padding: 20px 0;
     color: #eeeeee;;
-    background-color: #093A6B;
+    background-color: #137feb;
 }
 
 .saiba-mais h2, .projetos h2 {
@@ -111,12 +110,12 @@ nav ul a:hover {
 }
 
 .saiba-mais p, .projetos p {
-    font-size: 13pt;
+    font-size: 16px;
     padding: 5px 0;
 }
 
 .saiba-mais div {
-    padding: 20px;
+    padding: 0 20px;
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
@@ -146,10 +145,13 @@ nav ul a:hover {
 
 
 .proj-demo div {
-    margin: 10px;
     max-width: 500px;
     width: 100%;
     max-height: 670px;
+}
+
+.proj-demo div:nth-child(1) {
+    padding-right: 20px;
 }
 
 .proj-img {
@@ -171,7 +173,7 @@ nav ul a:hover {
     margin-top: 20px;
 }
 
-.proj-demo button, .proj-demo a {
+.proj-demo a {
     margin-top: 10px;
     text-decoration: none;
     padding: 8px;
@@ -181,11 +183,10 @@ nav ul a:hover {
     border: 2px solid transparent;
     border-radius: 20px;
     width: 180px;
-    cursor: pointer;
     transition: 0.5s;
 }
 
-.proj-demo button:hover, .proj-demo a:hover {
+.proj-demo a:hover {
     background: none;
     border: 2px solid #137feb;
     transition: 0.5s;
@@ -193,10 +194,6 @@ nav ul a:hover {
 
 .nome-projeto {
     color: #137feb;
-}
-
-.trocar {
-    display: none;
 }
 
 @media (max-width: 750px) {
@@ -284,5 +281,10 @@ nav ul a:hover {
 
     .bem-vindo div {
         width: 80%;
+    }
+
+    .saiba-mais p, .projetos p {
+        font-size: 14px;
+        padding: 5px 0;
     }
 }
