@@ -19,19 +19,3 @@ button.addEventListener("click", () => {
     button.classList.toggle("active-button")
     nav.classList.toggle("active")
 })
-
-const trocar = document.querySelector("#mudar")
-trocar.addEventListener("click", () => {
-    const login = document.querySelector("#login-page")
-    const signup = document.querySelector("#signup-page")
-    login.classList.toggle("trocar")
-    signup.classList.toggle("trocar")
-})
-
-const trocar_jogo = document.querySelector("#mudar-jogo")
-trocar_jogo.addEventListener("click", () => {
-    const menu_jogo = document.querySelector("#menu-jogo")
-    const jogo = document.querySelector("#jogo")
-    jogo.classList.toggle("trocar")
-    menu_jogo.classList.toggle("trocar")
-})
