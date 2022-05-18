@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/82cb9cfa0e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="header">
-        <h1><a href="#">G.</a></h1>
-        <nav id="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Objetivo</a></li>
-                <li><a href="#">Escolaridade</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Idiomas</a></li>
-            </ul>
-        </nav>
-        <div id="button-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+        <div class="header-content">
+            <h1><a href="#">G.</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Objetivo</a></li>
+                    <li><a href="#">Escolaridade</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Idiomas</a></li>
+                </ul>
+            </nav>
+            <div id="button-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </div>
     </header>
     
@@ -36,14 +39,14 @@
                 Cursando desenvolvimento de sistemas.</p>
             </div>
             <div class="imagem-bem-vindo">
-                <img src="img/imagem.svg" alt="">
+                <img src="img/laptop-icon.png" alt="">
             </div>
         </section>
 
         <section class="saiba-mais">
             <div>
                 <h2>SOBRE</h2>
-                <p>Olá, meu nome é <strong>Gustavo Taima</strong>, tenho 18 anos e moro em <strong>São Paulo SP</strong>.</p>
+                <p>Olá, meu nome é <strong>Gustavo Taima</strong>, tenho 18 anos e moro em <strong>São Paulo - SP</strong>.</p>
                 <p>Comecei a estudar programação em 2021, e desde então continuo aprimorando minhas Habilidades. Atualmente estou estudando no curso de <strong>Analise e Desenvolvimento de Sistemas</strong> da <strong>Escola Senai</strong>.</p>
                 <p>Desde criança sempre fui apaixonado por tecnlogia, e hoje estou em busca de realizar meu sonho de me tornar programador.</p>
             </div>
@@ -51,9 +54,9 @@
 
         <section class="projetos">
             <div class="content-projetos">
-                <h2>PROJETOS</h2>
+                <h2 class="nome-projeto">PROJETOS</h2>
                 <div class="proj-demo">
-                    <div>
+                    <div class="proj-descricao">
                         <h2 class="nome-projeto">LOGIN PAGE</h2>
                         <p>Página de login front-end.</p>
                         <p>Criado usando HTML / CSS e Javascript.</p>
@@ -64,10 +67,10 @@
                     </div>
                 </div>
                 <div class="proj-demo">
-                    <div>
+                    <div class="proj-descricao">
                         <h2 class="nome-projeto">JOGO DA VELHA</h2>
-                        <p>Jogo da velha criado usando HTML / CSS e Javascript.</p>
-                        <p>Este jogo possuí dois modos de jogos. Jogando sozinho ou contra a máquina.</p>
+                        <p>Jogo da Velha criado usando HTML / CSS e Javascript.</p>
+                        <p>Esse Jogo da Velha possui dois modos de jogo, um modo de 2 player e um modo contra a máquina.</p>
                     </div>
                     <div class="proj-img">
                         <div ><img src="img/jogo.png" alt="Jogo da Velha"></div>
@@ -80,7 +83,17 @@
     </main>
 
     <footer>
-
+        <div class="contato">
+            <p>Entre em contato.</p>
+            <div class="link-contatos">
+                <ul>
+                    <li><a href="https://www.instagram.com/gustavo_taima/" target="_blank" rel="external"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/taima157" target="_blank" rel="external"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/gustavo-taima-075a9a21a/" target="_blank" rel="external"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <p>&copy; 2022-2022 Gustavo Taima - Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>
