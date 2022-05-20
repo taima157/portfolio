@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #1E1E1E;
     color: #ffffff;
@@ -73,7 +77,7 @@ nav ul a:hover {
 
 .bem-vindo {
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
     height: 65vh;
     padding: 0 20px;
     width: 100%;
@@ -108,20 +112,36 @@ nav ul a:hover {
 
 .saiba-mais {
     padding: 20px 0;
-    color: #eeeeee;;
-    background-color: #137feb;
+    color: #eeeeee;
+    background-color: #1369eb;
+    margin-bottom: -120px;
 }
 
-.saiba-mais h2, .projetos h2 {
+.saiba-mais h2, .projetos h2, .objetivo h2 {
     font-size: 2.5em;
 }
 
-.saiba-mais p, .projetos p {
+.saiba-mais p, .projetos p, .objetivo p {
     font-size: 16px;
     padding: 5px 0;
 }
 
 .saiba-mais div {
+    padding: 0 20px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.objetivo {
+    padding-top: 140px;
+    padding-bottom: 20px;
+    color: #eeeeee;
+    background-color: #1369eb;
+    margin-bottom: -120px;
+}
+
+.objetivo div {
     padding: 0 20px;
     max-width: 1000px;
     width: 100%;
@@ -136,8 +156,8 @@ nav ul a:hover {
 }
 
 .projetos {
-    padding: 20px 0;
-    color: #eeeeee;;
+    padding-top: 120px;
+    color: #eeeeee;
 }
 
 .proj-demo {
@@ -203,9 +223,33 @@ nav ul a:hover {
     color: #137feb;
 }
 
-footer {
-    padding: 20px 0;
+.habilidades {
     margin-top: 50px;
+    color: black;
+    padding: 20px 0;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.habilidades div {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    padding: 0 20px;
+}
+
+.habilidades h2 {
+    font-size: 2.5em;
+}
+
+.habilidades p {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+footer {
+    padding: 50px 20px 50px 20px;
     background-color: #1a1a1a;
 }
 
@@ -344,5 +388,15 @@ footer {
     .saiba-mais p, .projetos p, footer p {
         font-size: 14px;
         padding: 5px 0;
+    }
+}
+
+@media (max-height: 665px) {
+    .bem-vindo {
+        justify-content: center;
+    }
+
+    .imagem-bem-vindo {
+        display: none;
     }
 }
