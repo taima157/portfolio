@@ -33,7 +33,7 @@ header a {
 
 header h1 a {
     color: #137feb;
-    font-size: 2.5em;
+    font-size: 1.8em;
 }
 
 .header-content {
@@ -114,7 +114,7 @@ nav ul a:hover {
     padding: 20px 0;
     color: #eeeeee;
     background-color: #1369eb;
-    margin-bottom: -120px;
+    margin-bottom: -86px;
 }
 
 .saiba-mais h2, .projetos h2, .objetivo h2 {
@@ -134,11 +134,11 @@ nav ul a:hover {
 }
 
 .objetivo {
-    padding-top: 140px;
+    padding-top: 106px;
     padding-bottom: 20px;
     color: #eeeeee;
     background-color: #1369eb;
-    margin-bottom: -120px;
+    margin-bottom: -86px;
 }
 
 .objetivo div {
@@ -156,7 +156,7 @@ nav ul a:hover {
 }
 
 .projetos {
-    padding-top: 120px;
+    padding-top: 86px;
     color: #eeeeee;
 }
 
@@ -223,7 +223,7 @@ nav ul a:hover {
     color: #137feb;
 }
 
-.habilidades {
+.conhecimento {
     margin-top: 50px;
     color: black;
     padding: 20px 0;
@@ -231,26 +231,52 @@ nav ul a:hover {
     background-color: white;
 }
 
-.habilidades div {
+.content-conhecimento {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    height: 500px;
     padding: 0 20px;
 }
 
-.habilidades h2 {
+.conhecimento h2 {
     font-size: 2.5em;
 }
 
-.habilidades p {
+.conhecimento p {
     font-size: 16px;
     padding: 5px 0;
+}
+
+.conhecimentos-ul {
+    padding: 20px 0;
+}
+
+.conhecimentos-ul ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.conhecimentos-ul ul li img {
+    padding-right: 10px;
 }
 
 footer {
     padding: 50px 20px 50px 20px;
     background-color: #1a1a1a;
+}
+
+footer div p {
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
 }
 
 .contato {
@@ -313,7 +339,7 @@ footer {
     }
 
     nav {
-        top: 120px;
+        top: 86px;
         position: absolute;
         display: block;
         z-index: 1000;
@@ -340,7 +366,7 @@ footer {
     .active {
         height: 225px;
         visibility: visible;
-        top: 120px;
+        top: 86px;
         transition: .6s;
     }
 
@@ -359,18 +385,6 @@ footer {
 }
 
 @media (max-width: 475px) {
-    header h1 a {
-        font-size: 2.2em;
-    }
-
-    nav {
-        top: 105px;
-    }
-
-    .active {
-        top: 105px;
-    }
-
     .imagem-bem-vindo img {
         display: none;
     }
@@ -398,5 +412,9 @@ footer {
 
     .imagem-bem-vindo {
         display: none;
+    }
+
+    .active {
+        height: 100vh;
     }
 }
