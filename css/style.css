@@ -371,6 +371,7 @@ footer a {
     }
 
     .proj-demo {
+        margin-top: 20px;
         flex-direction: column;
         align-items: center;
     }
@@ -397,6 +398,10 @@ footer a {
 
     .bem-vindo div {
         width: 80%;
+    }
+
+    .saiba-mais h2, .projetos h2, .objetivo h2, .conhecimento h2 {
+        font-size: 1.8em;
     }
 
     .saiba-mais p, .projetos p, footer p {
