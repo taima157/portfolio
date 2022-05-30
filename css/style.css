@@ -86,8 +86,13 @@ nav ul a:hover {
     justify-content: space-between;
 }
 
-.bem-vindo div {
-    width: 45%;
+.infos, .imagem-bem-vindo {
+    width: 48%;
+}
+
+.imagem-bem-vindo {
+    display: flex;
+    justify-content: right;
 }
 
 .imagem-bem-vindo img {
@@ -126,11 +131,37 @@ nav ul a:hover {
     padding: 5px 0;
 }
 
+.saiba-mais p {
+    width: 100%;
+}
+
 .saiba-mais div {
     padding: 0 20px;
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.curriculo {
+    margin-top: 30px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: #1333eb;
+    border-radius: 20px;
+    border: 2px solid #1333eb;
+}
+
+.curriculo:hover {
+    background: none;
+    transition: 0.2s ease-in-out;
 }
 
 .objetivo {
@@ -272,14 +303,14 @@ nav ul a:hover {
     width: 100%;
     height: 15px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #1333eb;
 }
 
 .barra2 {
     height: 100%;
     border-radius: 10px;
-    background: rgb(19,127,235);
-    background: linear-gradient(90deg, rgba(19,127,235,1) 0%, rgba(19,51,235,1) 100%);
+    background: #137feb;
+    background: linear-gradient(90deg, #137feb 0%, #1333eb 100%);
 }
 
 .fifty-per {
