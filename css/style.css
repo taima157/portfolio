@@ -249,6 +249,8 @@ nav ul a:hover {
 
 .conhecimentos-ul {
     padding: 20px 0;
+    max-width: 570px;
+    margin: 20px auto;
 }
 
 .conhecimentos-ul ul li {
@@ -259,6 +261,33 @@ nav ul a:hover {
 
 .conhecimentos-ul ul li img {
     padding-right: 10px;
+}
+
+.barra-content {
+    max-width: 500px;
+    width: 100%;
+}
+
+.barra {
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.barra2 {
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(19,127,235);
+    background: linear-gradient(90deg, rgba(19,127,235,1) 0%, rgba(19,51,235,1) 100%);
+}
+
+.fifty-per {
+    width: 50%;
+}
+
+.thirty-per {
+    width: 30%;
 }
 
 footer {
