@@ -149,7 +149,7 @@ nav ul a:hover {
 
 .curriculo {
     margin-top: 30px;
-    width: 140px;
+    width: 170px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -162,6 +162,10 @@ nav ul a:hover {
 .curriculo:hover {
     background: none;
     transition: 0.2s ease-in-out;
+}
+
+.curriculo i {
+    margin-right: 10px;
 }
 
 .objetivo {
