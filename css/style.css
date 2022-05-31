@@ -32,7 +32,7 @@ header a {
 }
 
 header h1 a {
-    color: #137feb;
+    color: #1333eb;
     font-size: 1.8em;
 }
 
@@ -118,7 +118,7 @@ nav ul a:hover {
 .saiba-mais {
     padding: 20px 0;
     color: #eeeeee;
-    background-color: #1369eb;
+    background-color: #1333eb;
     margin-bottom: -86px;
 }
 
@@ -172,7 +172,7 @@ nav ul a:hover {
     padding-top: 106px;
     padding-bottom: 20px;
     color: #eeeeee;
-    background-color: #1369eb;
+    background-color: #1333eb;
     margin-bottom: -86px;
 }
 
@@ -241,7 +241,7 @@ nav ul a:hover {
     padding: 8px;
     color: white;
     font-size: 16px;
-    background-color: #137feb;
+    background-color: #1333eb;
     border: 2px solid transparent;
     border-radius: 20px;
     width: 180px;
@@ -250,7 +250,7 @@ nav ul a:hover {
 
 .proj-demo a:hover {
     background: none;
-    border: 2px solid #137feb;
+    border: 2px solid #1333eb;
     transition: 0.5s;
 }
 
@@ -476,6 +476,7 @@ footer a {
 
 @media (max-height: 665px) {
     .bem-vindo {
+        height: 80vh;
         justify-content: center;
     }
 
