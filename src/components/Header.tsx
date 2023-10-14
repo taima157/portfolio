@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="w-full p-5 bg-neutral-900/10 sticky border-b-[1px] border-neutral-800 flex flex-col sm:flex-row sm:justify-around sm:items-center gap-5">
+    <header className="w-full p-5 bg-neutral-900/30 sticky border-b-[1px] border-neutral-800 flex flex-col sm:flex-row sm:justify-around sm:items-center gap-5">
       <h1 className="text-2xl self-start font-semibold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent ">
         <a href="/" className="w-full">
           gustavo taima.
